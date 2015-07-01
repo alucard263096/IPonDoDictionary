@@ -1,0 +1,5 @@
+https://openapi.baidu.com/oauth/2.0/token?grant_type=client_credentials&client_id=fgHuTQVERTf0zRaKSvLZ6UlV&client_secret=bd30749f13f786e6a370507a57d25bc1
+
+
+ http://tsn.baidu.com/text2audio?tex=***&lan=zh&cuid=aaaascasc&
+ctp=1&tok=24.3ca118e2b9bb3fe63885ed35f97b4473.2592000.1438357067.282335-6345082
