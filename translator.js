@@ -1,5 +1,15 @@
 ﻿function Translate(eng) {
-    return "你是个大傻逼";
+    var ret = "";
+    var strarr = eng.split(" ");
+    for (var i = 0; i < strarr.length; i++) {
+        ret += strarr[i];
+    }
+    ret = ret.replace(",", "，");
+    ret = ret.replace(".", "。");
+    ret = ret.replace("?", "？");
+    ret = ret.replace(":", "；");
+    ret = ret.replace("-", "");
+    return ret;
 }
 
 function Read(chn) {

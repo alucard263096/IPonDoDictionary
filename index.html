@@ -232,13 +232,13 @@
         $(document).ready(function () {
             $("#reader").hide();
             $("#btnTranslate").click(function () {
-                eng = $("#txtEng").val();
-                chn=Translate(eng);
+                var eng = $("#txtEng").val();
+                var chn=Translate(eng);
                 $("#txtChn").val(chn);
             });
             $("#btnRead").click(function () {
-                chn = $("#txtChn").val();
-                url = Read(chn);
+                var chn = $("#txtChn").val();
+                var url = Read(chn);
                 $("#reader").attr("src", url);
             });
         });
